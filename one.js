@@ -1,3 +1,4 @@
+
 console.log(1+2);
 
 // var camelCase
@@ -41,7 +42,7 @@ else
   console.log("No pasa nada");
 }
 
-// logicos
+// logicos---------------------------------------------------
 
 /*
  
@@ -56,7 +57,50 @@ var Pat="Pat";
 
 var bNombres="";
 
+if (Bob[0]="B"){
+  bNombres=bNombres+" "+Bob;
+}
+
+if (Ben[0]="B"){
+  bNombres=bNombres+" "+Ben;
+}
+
+if (Pat[0]="B"){
+  bNombres=bNombres+" "+Pat;
+}
+
+// metodo trim quita un espacio
+console.log(bNombres.trim())
 
 
 
-console.log(bNombres)
+// INDEXACIÓN------------------------
+
+var a="abcde";
+console.log(a[0])
+console.log(a[1])
+console.log(a[2])
+console.log(a[3])
+console.log(a[4])
+
+
+
+
+// if--------------------------------------------
+
+var students=["Roberto","Torres","Bello"];
+
+console.log("La longitud de la lista de estudiantes es "+students.length)
+
+for (var i=0; i<students.length; i+=1){
+  console.log(students[i]);
+}
+
+// FUNCIONES--------------------
+
+
+function name(parameters){
+  body
+  (return statement)
+}
+Lorem Ipsum
